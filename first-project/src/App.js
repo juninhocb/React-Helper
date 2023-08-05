@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <p> The name of var is {nameUppercase}</p>
       <p> Soma: {sum(2,3)}</p>
       <img src={imageUrl} alt="my image"/>
+      <HelloWorld/>
     </div>
   );
 }
