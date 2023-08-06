@@ -1,24 +1,17 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Person from './components/Person';
 
 function App() {
 
-  const name = "John Green"; 
-  const nameUppercase = name.toUpperCase(); 
-  const imageUrl = "https://via.placeholder.com/150";
-
-  function sum(a,b){
-    return a + b; 
-  }
-
-
+  const name = "John Black";
 
   return (
     <div className="App">
-      <h1> My initial project in React! Greetings.</h1>
-      <p> The name of var is {nameUppercase}</p>
-      <p> Soma: {sum(2,3)}</p>
-      <img src={imageUrl} alt="my image"/>
+      <Person img="https://via.placeholder.com/150" name="Peter Blue" age="19" city="Blumenau-SC" />
+      <SayMyName name="Carlos Jr"/>
+      <SayMyName name={name}/>  
       <HelloWorld/>
     </div>
   );
