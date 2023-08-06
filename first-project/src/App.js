@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Person from './components/Person';
 import List from './components/ListOfTeams';
+import Event from './components/Event';
+import Form from './components/Form';
 
 function App() {
 
@@ -10,11 +12,10 @@ function App() {
 
   return (
     <div className="App">
-      <List />
-      <Person img="https://via.placeholder.com/150" name="Peter Blue" age="19" city="Blumenau-SC" />
-      <SayMyName name="Carlos Jr"/>
-      <SayMyName name={name}/>  
-      <HelloWorld/>
+      <h1> Click button test</h1>
+      <Event number={1} />
+      <Event number={2}/>
+      <Form/>
     </div>
   );
 }
