@@ -1,13 +1,15 @@
 .newProjectContainer {
     width: 450px;
     margin: 0 auto;
-    padding: 3em;
+    padding: 2.5em;
 }
 
 .newProjectContainer h1{
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 .newProjectContainer p{
     color: #7b7b7b;
+    margin-bottom: 0.3em;
+
 }
